@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="/normolize.css" rel="stylesheet">
+    <link href="/diplom.css" rel="stylesheet">
+</head>
+<body>
+    <div class="block_header">
+        <div id="header">
+            <h2>ASPC</h2>
+        </div>
+    </div>
+    <div class="background">
+    <div id="main">
+        <div>
+        <div>
+            <div>
+                <div class="block-1">
+                    <label>ФИО</label>
+                    <input class="form-select" placeholder="Введите данные">
+                </div>
+            </div>
+            <div>
+                <div class="block-12">
+                    <label>Номер телефона</label>
+                    <input type="text" placeholder="87009653170" >
+                </div>
+            </div>
+            <div class="select_block">
+                <div class="block_row">
+                    <div class="block_column01">
+                        <div>
+                            <label >Корпус</label></br>
+                            <input type="text" >
+                        </div>
+                    </div>
+                    <div class="block_column02">
+                        <div>
+                            <label >Этаж</label></br>
+                            <input type="text" >
+                        </div>
+                    </div>
+                    <div class="block_column02">
+                        <div >
+                            <label >Кабинет</label></br>
+                            <input type="text" >
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div>
+            <div class="block-1">
+                <label>Лаборант</label>
+                <input type="text" >
+            </div>
+        </div>
+        <div class="select_block">
+            <div class="block_row">
+                <div class="block_column1">
+                    <div>
+                        <label >Категория</label></br>
+                        <select type="text" >
+                            <option>Выберите категорию</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="block_column2">
+                    <div>
+                        <label >Задача</label></br>
+                        <input type="text" >
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div>
+            <div class="block-1">
+                <label id="comment" >Комментарий</label>
+                <input id="text-input" type="text" placeholder="Введите Комментарий" >
+            </div>
+        </div>
+    </div>
+    <div class="button">
+        <button>Отправить</button>
+    </div>
+    </div>
+    </div>
+    <!--СПИСКИ ДЛЯ ИНПУТОВ-->
+     <datalist id="corpus"></datalist>
+     <!-- <datalist id="house"></datalist> -->
+    <datalist id="floor"></datalist>
+    <datalist id="kab"></datalist>
+    <datalist id="lab"></datalist>
+    <datalist id="fio"></datalist>
+    <datalist id="tasks"></datalist>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="/diplom.js" ></script>
+</body>
+</html>
